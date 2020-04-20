@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register - yourderm</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style type="text/css">
+ 
+    h1{
+      position: absolute;
+      width: 227px;
+      height: 63px;
+      left: 475px;
+      top: 132px;
+
+      font-family: Segoe UI;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 46px;
+      line-height: 61px;
+
+      color: #0088FF;
+
+    }
+
+    form{
+        margin: auto;
+        text-align: center;
+        padding: 15px 30px;
+        border-radius: 10px;
+        line-height: 1;
+        font-family: 'Segoe UI';
+    }
+
+    input{
+      position: absolute;
+      width: 350px;
+      height: 32px;
+      left: 475px;
+      top: 246px;
+      background: #F1FAFF;
+      border-radius: 10px;
+    }
+
+    button{
+        border: none;
+        background: #0088FF;
+        transition: all 300ms;
+        padding: 10px 15px;
+        font-size: 16px;
+        color: white;
+        border-radius: 5px;
+        margin: 10px auto;
+    }
+    button:hover{
+        cursor: pointer;
+        opacity: 1;
+    }
+    
+    </style>
+</head>
+<body background="register.png">
+    <nav class="navbar navbar-expand-lg navbar-light bg-faded">
+		<a class="navbar-brand" href="#"><img src="D:\college\webpro\yourdermis\Background\Logo.png" width="130px"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+		  <ul class="navbar-nav">
+			<li class="nav-item active">
+			  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">Sign Up</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">Login</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Blogs</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Feeds</a>
+			</li>  
+		  </ul>
+		</div>
+    </nav>
+    <h1>Register</h1>
+    <form>
+        <div class="form-group">
+            <label>Username</label><br>
+            <input type="text" class="form-group" id="username" required>
+        </div><br><br>
+        <div class="form-group">
+            <label>Password</label><br><br>
+            <input type="password" class="form-group" id="password" required="8">
+        </div><br>
+        <button type="submit" class="registerbtn">Register</button>
+    </form>
+</body>
+</html>
